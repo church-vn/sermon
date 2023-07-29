@@ -11775,3 +11775,12 @@ body.light-theme .contact-section .footer .links a {
 body.dark-theme {
   background: #212529;
 }
+
+
+/* video */
+@media screen and (max-width: 768px) {
+  .video_youtube {
+    width: 100% !important;
+    height: 55vw !important;
+  }
+}
