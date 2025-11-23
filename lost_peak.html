@@ -124,13 +124,45 @@
 
 <!-- Видео -->
 <figure>
-    <video controls class="img-fluid">
-        <source src="https://church-vn.github.io/sermon/media_assets_for_preaching/everest.mp4" type="video/mp4">
-        Ваш браузер не поддерживает воспроизведение видео.
-    </video>
+    <div class="video-container">
+        <video controls poster="https://church-vn.github.io/sermon/media_assets_for_preaching/video_poster_everest.jpg">
+            <source src="https://church-vn.github.io/sermon/media_assets_for_preaching/everest.mp4" type="video/mp4">
+            Ваш браузер не поддерживает воспроизведение видео.
+        </video>
+    </div>
     <figcaption>Видео о восхождении на Эверест</figcaption>
 </figure>
+<style>
+/* Общий контейнер для всех медиа */
+figure {
+    margin: 1.5rem 0;
+    text-align: center;
+}
 
+/* Изображения */
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Видео */
+figure video {
+    width: 100%;
+    max-width: 800px; /* ограничение по ширине на больших экранах */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Подписи */
+figcaption {
+    font-size: 0.85rem;
+    color: #555;
+    margin-top: 0.5rem;
+}
+</style>
 
 <br><br>
 
